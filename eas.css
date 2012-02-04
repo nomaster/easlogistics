@@ -1,0 +1,153 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+body {
+	background: #0087a8;
+}
+div#content {
+	line-height: 2em;
+	margin: 0 42px 0 200px;
+	padding: 12px 0 0 2em;
+	text-align: justify;
+}
+div#menu {
+	clear: both;
+	float: left;
+	line-height: 2em;
+	margin-left: 1em;
+	width: 180px;
+}
+div#menu a {
+	width: 100%;
+}
+div#menu ul {
+	list-style-type: none;
+	margin: 1em;
+}
+div#menu ul li {
+	border-left: 2px solid #00ccff;
+	margin: 0;
+	padding: 0 0 0 10px;
+	width: 100%;
+}
+div#menu ul li+li {
+	border-top: 1px dashed gray;
+}
+div#menu ul li.active:before {
+	content: "» ";
+}
+div#header {
+	background: black url("eas-plane.png") no-repeat center left;
+	font-size: 14pt;
+	font-weight: bold;
+	height: 270px;
+	margin: 0;
+}
+div.request {
+	text-align: center;
+}
+form {
+	margin: auto;
+	text-align: left;
+	width: 21em;
+}
+form fieldset {
+	border: 1px dotted;
+	margin: 0.5em;
+	padding: 0 0 1em 0.5em;
+
+}
+form fieldset li {
+	padding: 0.1em;
+	width: 100%;
+}
+form input,select,textarea {
+	background: #EEE;
+	border: 1px solid #CCC;
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	margin-left: 1em;
+	width: 18em;
+}
+form input.selection {
+	display: inline;
+	margin: 0.1em;
+	padding: 0.1em;
+}
+div.submit_button {
+	padding: 1em;
+	padding-left: 2.75em;
+}
+div.submit_button input {
+	margin: 0;
+	width: 18em;
+}
+form textarea {
+	width: 16em;
+}
+form label {
+}
+h1 {
+	border-top: 2px solid #00ccff;
+	color: white;
+	font-size: 16px;
+	line-height: 0.8em;
+	margin: -21px 0 0 0;
+	padding: 2px 42px 2px 0;
+	text-transform: uppercase;
+	text-align: right;
+}
+h2 {
+	margin-bottom: 0.5em;
+}
+h3 {
+	margin-top: 1em;
+}
+div#page {
+	background: white;
+	border: 1pt solid gray;
+	font-family: sans-serif;
+	margin: 25px auto 25px auto;
+	padding: 0 0 25px 0;
+	width: 800px;
+}
+div.image {
+	padding: 25px;
+	text-align: center;
+}
+div#content ul {
+	margin-left: 0.5em;
+	list-style-type: none;
+	text-align: left;
+}
+div#content ul li:before {
+	color: #00ccff;
+	content: "» ";
+}
+div#content ul li:first-line {
+	% verschieben
+}
+div#content a {
+	text-decoration: underline;
+}
+div#footer {
+	clear: both;
+}
+ul#language {
+	color: white;
+	float: left;
+	margin: -1.2em 0 0.2em 3em;
+}
+ul#language li {
+	display: inline;
+}
+ul#language li+li:before {
+	content: " | ";
+}

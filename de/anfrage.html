@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="de-DE">
+	<head>
+		<title>EAS Logistics</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="/eas.css" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	</head>
+	<body>
+		<div id="page">
+			<div id="header"></div>
+			<ul id="language">
+				<li><a href="/de/index.html" title="Deutsch">de</a></li>
+				<li><a href="/en/index.html" title="Englisch">en</a></li>
+			</ul>
+			<h1>Express Air and Sea Logistics</h1>
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="unternehmen.html">Unternehmen</a></li>
+					<li><a href="service.html">Service</a></li>
+					<li><a href="preise.html">Preise</a></li>
+					<li><a href="neuigkeiten.html">Neuigkeiten</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					<li><a href="impressum.html">Impressum</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<p><strong>Sie interessieren sich für eine unserer Dienstleistungen?</strong></p>
+				<p>Füllen Sie einfach das nachstehende Formular aus und wir lassen Ihnen schnellstmöglich ein unverbindliches Angebot zukommen.</p>
+				<div class="request">
+					<form action="mailr.php" method="post">
+						<fieldset>
+							<legend>Angaben zur Person</legend>
+							<ul>
+								<li>
+									<label for="salutation">Anrede:</label>
+									<input class="selection" type="radio" name="salutation" value="Frau">Frau</input>									
+									<input class="selection" type="radio" name="salutation" value="Herr">Herr</input>
+									<input class="selection" type="radio" name="salutation" value="Firma">Firma</input>
+								</li>
+								<li><label for="name">Name:</label><input type="text" name="name" /></li>
+								<li><label for="email">E-Mail:</label><input type="text" name="email" /></li>
+								<li><label for="phone">Telefon:</label><input type="text" name="phone" /></li>
+							</ul>
+						</fieldset>	
+						<fieldset>
+							<legend>Angaben zur Sendung</legend>
+							<ul>
+								<li><label for="weight">Gewicht [kg]:</label><input type="text" name="weight" /></li>
+								<li><label for="width">Breite [cm]:</label><input type="text" name="width" /></li>
+								<li><label for="depth">Tiefe [cm]:</label><input type="text" name="depth" /></li>
+								<li><label for="height">Höhe [cm]:</label><input type="text" name="height" /></li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<legend>Aufgabe- und Bestimmungsort:</legend>
+							<ul>
+								<li>
+									<label for="location">Aufgabeort:</label>
+									<select name="location">
+										<option value="Berlin">Berlin</option>
+										<option value="Düsseldorf">Düsseldorf</option>
+										<option value="Köln">Köln</option>
+										<option value="Mannheim">Mannheim</option>
+									</select>
+								</li>
+								<li><label for="destination">Bestimmungsort:</label><input type="text" name="destination" /></li>
+							</ul>
+						</fieldset>
+						<fieldset>
+							<ul>
+								<li>
+									<label for="message">Zusätzliche Angaben:</label>
+									<textarea name="message"></textarea>
+								</li>
+							</ul>
+						</fieldset>
+						<div class="submit_button">
+							<input class="button" type="submit" value="Abschicken" />
+						</div>
+					</form>				
+				</div>
+			</div>
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>
